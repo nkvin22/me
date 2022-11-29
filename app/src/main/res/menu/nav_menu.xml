@@ -14,8 +14,8 @@
         android:title="Notification"/>
     <item
         android:id="@+id/newFragment"
-        android:icon="@drawable/ic_baseline_lightbulb_24"
-        android:title="Me" />
+        android:icon="@drawable/ic_baseline_rocket_launch_24"
+        android:title="Me B)" />
 </menu>
 
 
