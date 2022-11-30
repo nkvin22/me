@@ -18,8 +18,12 @@
 
         <argument
             android:name="name"
-            android:defaultValue="Confused"
+            android:defaultValue="Me"
             app:argType="string" />
+        <action
+            android:id="@+id/action_notificationFragment_to_newFragment2"
+            app:destination="@id/newFragment2" />
+
     </fragment>
 
     <fragment
@@ -33,8 +37,8 @@
     </fragment>
 
     <fragment
-        android:id="@+id/newFragment"
-        android:name="com.example.me.NewFragment"
+        android:id="@+id/newFragment2"
+        android:name="com.example.me.NewFragment2"
         android:label="New"
         tools:layout="@layout/fragment_new"/>
 
